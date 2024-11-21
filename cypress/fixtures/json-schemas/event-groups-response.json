@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "eventGroups": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "event_group_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "event_group_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "event_group_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "event_group_id"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "eventGroups"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

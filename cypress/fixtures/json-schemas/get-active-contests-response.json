@@ -1,0 +1,83 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "getActiveContests": {
+          "type": "object",
+          "properties": {
+            "contests": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "active": {
+                      "type": "null"
+                    },
+                    "end_date": {
+                      "type": "string"
+                    },
+                    "start_date": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "score_type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "active",
+                    "end_date",
+                    "start_date",
+                    "title",
+                    "score_type"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "active": {
+                      "type": "null"
+                    },
+                    "end_date": {
+                      "type": "string"
+                    },
+                    "start_date": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "score_type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "active",
+                    "end_date",
+                    "start_date",
+                    "title",
+                    "score_type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "contests"
+          ]
+        }
+      },
+      "required": [
+        "getActiveContests"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

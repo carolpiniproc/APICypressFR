@@ -1,0 +1,75 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "marketsThin": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "for_alias": {
+                  "type": "string"
+                },
+                "against_alias": {
+                  "type": "string"
+                },
+                "against_total_shares": {
+                  "type": "null"
+                },
+                "for_total_shares": {
+                  "type": "null"
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "for_alias",
+                "against_alias",
+                "against_total_shares",
+                "for_total_shares",
+                "id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "for_alias": {
+                  "type": "string"
+                },
+                "against_alias": {
+                  "type": "string"
+                },
+                "against_total_shares": {
+                  "type": "null"
+                },
+                "for_total_shares": {
+                  "type": "null"
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "for_alias",
+                "against_alias",
+                "against_total_shares",
+                "for_total_shares",
+                "id"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "marketsThin"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

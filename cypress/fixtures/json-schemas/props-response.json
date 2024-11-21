@@ -1,0 +1,153 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "props": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "start_time": {
+                  "type": "string"
+                },
+                "markets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "league": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "league_id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "league_id"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "start_time",
+                "markets",
+                "league"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "start_time": {
+                  "type": "string"
+                },
+                "markets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "league": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "league_id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "league_id"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "start_time",
+                "markets",
+                "league"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "start_time": {
+                  "type": "string"
+                },
+                "markets": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "league": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "league_id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "league_id"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "start_time",
+                "markets",
+                "league"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "props"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

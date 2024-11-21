@@ -1,0 +1,116 @@
+{
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "object",
+        "properties": {
+          "ownership": {
+            "type": "array",
+            "items": [
+              {
+                "type": "object",
+                "properties": {
+                  "against_price": {
+                    "type": "null"
+                  },
+                  "against_shares": {
+                    "type": "integer"
+                  },
+                  "for_price": {
+                    "type": "null"
+                  },
+                  "for_shares": {
+                    "type": "integer"
+                  },
+                  "market": {
+                    "type": "object",
+                    "properties": {
+                      "address": {
+                        "type": "string"
+                      },
+                      "against_alias": {
+                        "type": "string"
+                      },
+                      "against_total_shares": {
+                        "type": "number"
+                      },
+                      "against_volume": {
+                        "type": "number"
+                      },
+                      "bid_ask_spread": {
+                        "type": "null"
+                      },
+                      "first_price": {
+                        "type": "number"
+                      },
+                      "for_alias": {
+                        "type": "string"
+                      },
+                      "for_total_shares": {
+                        "type": "number"
+                      },
+                      "for_volume": {
+                        "type": "number"
+                      },
+                      "full_name": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "last_price": {
+                        "type": "number"
+                      },
+                      "prices": {
+                        "type": "null"
+                      },
+                      "prop": {
+                        "type": "null"
+                      },
+                      "state": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "address",
+                      "against_alias",
+                      "against_total_shares",
+                      "against_volume",
+                      "bid_ask_spread",
+                      "first_price",
+                      "for_alias",
+                      "for_total_shares",
+                      "for_volume",
+                      "full_name",
+                      "id",
+                      "last_price",
+                      "prices",
+                      "prop",
+                      "state"
+                    ]
+                  },
+                  "trading_account_id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "against_price",
+                  "against_shares",
+                  "for_price",
+                  "for_shares",
+                  "market",
+                  "trading_account_id"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "ownership"
+        ]
+      }
+    },
+    "required": [
+      "data"
+    ]
+  }

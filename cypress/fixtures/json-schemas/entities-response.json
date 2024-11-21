@@ -1,0 +1,274 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "entities": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "null"
+                },
+                "abbreviation": {
+                  "type": "null"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "null"
+                },
+                "abbreviation": {
+                  "type": "null"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "null"
+                },
+                "abbreviation": {
+                  "type": "null"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "null"
+                },
+                "abbreviation": {
+                  "type": "null"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "null"
+                },
+                "abbreviation": {
+                  "type": "null"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "null"
+                },
+                "abbreviation": {
+                  "type": "null"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "null"
+                },
+                "abbreviation": {
+                  "type": "null"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "string"
+                },
+                "abbreviation": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "string"
+                },
+                "abbreviation": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "string"
+                },
+                "abbreviation": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "division": {
+                  "type": "string"
+                },
+                "abbreviation": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "division",
+                "abbreviation",
+                "league_id"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "entities"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

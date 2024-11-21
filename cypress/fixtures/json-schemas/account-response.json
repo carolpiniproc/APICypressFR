@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "account": {
+          "type": "object",
+          "properties": {
+            "email_subscribe": {
+              "type": "boolean"
+            },
+            "event_summary_hotspot_complete": {
+              "type": "boolean"
+            },
+            "id": {
+              "type": "string"
+            },
+            "is_new": {
+              "type": "null"
+            },
+            "is_enabled": {
+              "type": "boolean"
+            },
+            "onboarding_complete": {
+              "type": "boolean"
+            },
+            "order_book_hotspot_complete": {
+              "type": "boolean"
+            },
+            "orderslip_hotspot_complete": {
+              "type": "boolean"
+            },
+            "provider_user_id": {
+              "type": "string"
+            },
+            "show_usdc_modal": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "email_subscribe",
+            "event_summary_hotspot_complete",
+            "id",
+            "is_new",
+            "is_enabled",
+            "onboarding_complete",
+            "order_book_hotspot_complete",
+            "orderslip_hotspot_complete",
+            "provider_user_id",
+            "show_usdc_modal"
+          ]
+        }
+      },
+      "required": ["account"]
+    }
+  },
+  "required": ["data"]
+}

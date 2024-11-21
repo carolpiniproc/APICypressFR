@@ -1,0 +1,16 @@
+{
+  "data": {
+    "account": {
+      "email_subscribe": true,
+      "event_summary_hotspot_complete": true,
+      "id": "12e0ff3f-6a37-44df-acf0-60aef46baa3b",
+      "is_new": null,
+      "is_enabled": true,
+      "onboarding_complete": false,
+      "order_book_hotspot_complete": false,
+      "orderslip_hotspot_complete": false,
+      "provider_user_id": "tT7oOqRBgkh8mDsAHViz0hVorPN0rZBO@clients",
+      "show_usdc_modal": false
+    }
+  }
+}

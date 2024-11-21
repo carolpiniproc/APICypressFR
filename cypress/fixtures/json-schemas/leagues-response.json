@@ -1,0 +1,182 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "leagues": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "sport_enum": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "sport_enum",
+                "display_name",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "sport_enum": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "sport_enum",
+                "display_name",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "sport_enum": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "sport_enum",
+                "display_name",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "sport_enum": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "sport_enum",
+                "display_name",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "sport_enum": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "sport_enum",
+                "display_name",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "sport_enum": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "sport_enum",
+                "display_name",
+                "league_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "sport_enum": {
+                  "type": "string"
+                },
+                "display_name": {
+                  "type": "string"
+                },
+                "league_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "sport_enum",
+                "display_name",
+                "league_id"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "leagues"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "orderbook": {
+          "type": "object",
+          "properties": {
+            "market_id": {
+              "type": "string"
+            },
+            "buys": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "price": {
+                      "type": "number"
+                    },
+                    "shares": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "price",
+                    "shares"
+                  ]
+                }
+              ]
+            },
+            "sells": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "price": {
+                      "type": "number"
+                    },
+                    "shares": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "price",
+                    "shares"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "price": {
+                      "type": "number"
+                    },
+                    "shares": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "price",
+                    "shares"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "price": {
+                      "type": "number"
+                    },
+                    "shares": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "price",
+                    "shares"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "market_id",
+            "buys",
+            "sells"
+          ]
+        }
+      },
+      "required": [
+        "orderbook"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

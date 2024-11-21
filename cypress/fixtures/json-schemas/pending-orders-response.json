@@ -1,0 +1,92 @@
+{
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "type": "object",
+  "default": {},
+  "required": [
+      "data"
+  ],
+  "properties": {
+      "data": {
+          "title": "The data Schema",
+          "type": "object",
+          "default": {},
+          "required": [
+              "pendingOrders"
+          ],
+          "properties": {
+              "pendingOrders": {
+                  "title": "The pendingOrders Schema",
+                  "type": "array",
+                  "default": [],
+                  "items": {
+                      "title": "A Schema",
+                      "type": "object",
+                      "default": {},
+                      "required": [
+                          "address",
+                          "created",
+                          "execution_side",
+                          "execution_type",
+                          "id",
+                          "event"
+                      ],
+                      "properties": {
+                          "address": {
+                              "title": "The address Schema",
+                              "type": "string",
+                              "default": "",
+                              "examples": [
+                                  "0x15c0d436c6e37189623c2e0e90e5f696965ddedf18a37341525e7d413fd4c455"
+                              ]
+                          },
+                          "created": {
+                              "title": "The created Schema",
+                              "type": "string",
+                              "default": "",
+                              "examples": [
+                                  "2022-05-12T22:26:00.000000Z"
+                              ]
+                          },
+                          "execution_side": {
+                              "title": "The execution_side Schema",
+                              "type": "string",
+                              "default": "",
+                              "examples": [
+                                  "MAKER"
+                              ]
+                          },
+                          "execution_type": {
+                              "title": "The execution_type Schema",
+                              "type": "string",
+                              "default": "",
+                              "examples": [
+                                  "LIMIT"
+                              ]
+                          },
+                          "id": {
+                              "title": "The id Schema",
+                              "type": "string",
+                              "default": "",
+                              "examples": [
+                                  "ddfb619d-0df4-4c8c-a9f4-5de38353f06d"
+                              ]
+                          },
+                          "event": {
+                              "title": "The event Schema",
+                              "type": "null",
+                              "default": null,
+                              "examples": [
+                                  null
+                              ]
+                          }
+                      }
+                      
+                  }
+                  
+              }
+          }
+         
+      }
+  }
+}

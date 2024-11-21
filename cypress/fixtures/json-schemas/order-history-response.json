@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "orderHistory": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "address": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "execution_side": {
+                  "type": "string"
+                },
+                "execution_type": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "market_address": {
+                  "type": "string"
+                },
+                "market_alias": {
+                  "type": "string"
+                },
+                "market_id": {
+                  "type": "string"
+                },
+                "market_name": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "prop_name": {
+                  "type": "string"
+                },
+                "shares": {
+                  "type": "integer"
+                },
+                "state": {
+                  "type": "string"
+                },
+                "trading_account_id": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "updated": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "address",
+                "created",
+                "execution_side",
+                "execution_type",
+                "id",
+                "market_address",
+                "market_alias",
+                "market_id",
+                "market_name",
+                "price",
+                "prop_name",
+                "shares",
+                "state",
+                "trading_account_id",
+                "type",
+                "updated"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "orderHistory"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

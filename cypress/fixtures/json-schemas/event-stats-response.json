@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "eventStats": {
+          "type": "object",
+          "properties": {
+            "event_id": {
+              "type": "string"
+            },
+            "sport_enum": {
+              "type": "string"
+            },
+            "stats": {
+              "type": "object",
+              "properties": {
+                "home_score": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "integer"
+                    }
+                  ]
+                },
+                "away_score": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "type": "integer"
+                    }
+                  ]
+                }
+              },
+              "required": ["home_score", "away_score"]
+            },
+            "updated": {
+              "type": "string"
+            }
+          },
+          "required": ["event_id", "sport_enum", "stats", "updated"]
+        }
+      },
+      "required": ["eventStats"]
+    }
+  },
+  "required": ["data"]
+}

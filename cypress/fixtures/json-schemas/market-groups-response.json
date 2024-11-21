@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "marketGroups": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "marketGroups"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "qa-api-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://amachado77@gitlab.com/getfrontrunner/qa-api-automation.git",
+  "author": "Ariel Machado <ariel@getfrontrunner.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "yarn run cypress open",
+    "cy:run": "yarn run cypress run --headless",
+    "cy:ci": "yarn run cypress run --headless --record --key ffe2d5cf-a9bc-40ee-a1d3-8b1fcd9abbf1 --parallel"
+  },
+  "devDependencies": {
+    "ajv": "^8.11.0",
+    "cypress": "^10.7.0",
+    "cypress-localstorage-commands": "^2.2.1",
+    "dotenv": "^16.0.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1232.0"
+  }
+}

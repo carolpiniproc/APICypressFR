@@ -1,0 +1,107 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "events": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "event_group_id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "sports_data_io_game_id": {
+                  "type": "integer"
+                },
+                "start_time": {
+                  "type": "string"
+                },
+                "league": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "league_id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "league_id"
+                  ]
+                },
+                "event_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "event_group_id",
+                "name",
+                "sports_data_io_game_id",
+                "start_time",
+                "league",
+                "event_id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "event_group_id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "sports_data_io_game_id": {
+                  "type": "integer"
+                },
+                "start_time": {
+                  "type": "string"
+                },
+                "league": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "league_id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "league_id"
+                  ]
+                },
+                "event_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "event_group_id",
+                "name",
+                "sports_data_io_game_id",
+                "start_time",
+                "league",
+                "event_id"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "events"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

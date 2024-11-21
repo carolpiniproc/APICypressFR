@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "tradingAccounts": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "trading_account_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "trading_account_id"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "tradingAccounts"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

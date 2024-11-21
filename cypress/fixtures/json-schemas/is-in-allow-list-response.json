@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "isInAllowlist": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "isInAllowlist"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "stats": {
+          "type": "object",
+          "properties": {
+            "event_id": {
+              "type": "string"
+            },
+            "updated": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "event_id",
+            "updated"
+          ]
+        }
+      },
+      "required": [
+        "stats"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

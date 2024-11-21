@@ -1,0 +1,62 @@
+{
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "type": "object",
+  "default": {},
+  "required": [
+      "data"
+  ],
+  "properties": {
+      "data": {
+          "title": "The data Schema",
+          "type": "object",
+          "default": {},
+          "required": [
+              "performanceValues"
+          ],
+          "properties": {
+              "performanceValues": {
+                  "title": "The performanceValues Schema",
+                  "type": "array",
+                  "default": [],
+                  "items": {
+                      "title": "A Schema",
+                      "type": "object",
+                      "default": {},
+                      "required": [
+                          "trading_account_id"
+                          
+                      ],
+                      "properties": {
+                          "time_stamp": {
+                              "title": "The time_stamp Schema",
+                              "type": "string",
+                              "default": "",
+                              "examples": [
+                                  "2022-05-20T00:00:00.000000Z"
+                              ]
+                          },
+                          "trading_account_id": {
+                              "title": "The trading_account_id Schema",
+                              "type": "null",
+                              "default": null,
+                              "examples": [
+                                  null
+                              ]
+                          },
+                          "worth": {
+                              "title": "The worth Schema",
+                              "type": "number",
+                              "default": 0.0,
+                              "examples": [
+                                  0.0
+                              ]
+                          }
+                      }
+                  }
+                  
+              }
+          }
+      }
+  }
+}
