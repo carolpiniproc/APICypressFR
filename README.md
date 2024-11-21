@@ -2,10 +2,10 @@
 
 ## Getting Started
 
-- Clone the project from the following url: https://gitlab.com/getfrontrunner/qa-api-automation
+- Clone the project from the following url: 
 - Run 'yarn' command to install all the devDependencies from the package.json file
 - Create an .env file into your root folder
-- Get the keys and values for your .env file from this url: https://vault.bitwarden.com/#/vault?collectionId=d4f621bf-6a43-4608-88c9-af0800cfe38a&itemId=b0306249-487a-4916-8564-af0b0134a34c
+- Get the keys and values for your .env file from this url: 
 - You are all set!
 
 ## Overview
